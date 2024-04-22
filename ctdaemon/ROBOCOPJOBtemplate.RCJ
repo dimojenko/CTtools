@@ -1,0 +1,38 @@
+:: Robocopy Job
+::
+:: Source Directory :
+::
+	/SD:\\192.168.0.6\1984-CT Data\
+
+::
+:: Destination Directory :
+::
+	/DD:\\192.168.0.94\CT Data\000 STAPLE LINES I\
+
+::
+:: Exclude These Directories :
+::
+	/XF
+		*.nsipro
+
+::
+:: Copy options :
+::
+	/DCOPY:DA
+	/COPY:DAT
+	/E
+	/Z
+	/A-:SH
+	/XA:SHT
+	/MON:1
+	/L
+
+::
+:: Retry Options :
+::
+	/R:3
+	/W:30
+::
+:: Logging Options :
+::
+	/LOG+:C:\Users\efX-user\Documents\robocopy_logs\robocopy_log.txt

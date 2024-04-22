@@ -1,0 +1,36 @@
+:: Robocopy Job
+::
+:: Source Directory :
+::
+	/SD:
+::
+:: Destination Directory :
+::
+	/DD:/
+::
+:: Exclude These Directories :
+::
+	/XF
+		*.nsipro
+
+::
+:: Copy options :
+::
+	/DCOPY:DA
+	/COPY:DAT
+	/E
+	/Z
+	/A-:SH
+	/XA:SHT
+	/MON:1
+	/L
+
+::
+:: Retry Options :
+::
+	/R:3
+	/W:30
+::
+:: Logging Options :
+::
+	/LOG+:C:\Users\efX-user\Documents\robocopy_logs\robocopy_log1453.txt

@@ -1,0 +1,1 @@
+C:\Users\efX-user\AppData\Local\Microsoft\WindowsApps\python.exe C:\Users\efX-user\Documents\sandbox\ctdaemon\ctdaemon.py
