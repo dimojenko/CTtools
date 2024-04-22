@@ -1,2 +1,0 @@
-pymsteams==0.2.2
-pywin32==306
