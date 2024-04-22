@@ -1,0 +1,4 @@
+sel dis 0
+det dis
+sel dis 1
+det dis
