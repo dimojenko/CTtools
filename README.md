@@ -10,11 +10,13 @@ one day, if not killed with the "Kill all jobs" button. There is no problem with
 transfer process continue after files are done transferring; the process will simply be killed 
 after one day has elapsed. Multiple transfers can be working at the same time, so there is no 
 issue with starting multiple transfers without killing one. 
-Everything except ".nsipro" files will be transferred.
-Occasionally a transfer will fail to move all files or seem to pause for no reason. Most of 
-the time, simply hitting the "Kill all jobs" button, and restarting the transfer will fix it. 
-In the GUI, there is also a "Scan Notifier" button, which when pressed, will send a message to 
-the "Scan Notifications" channel in the "RDL CT Team" MS Teams page. 
+
+Everything except ".nsipro" files will be transferred. Occasionally a transfer will fail to move 
+all files or seem to pause for no reason. Most of the time, simply hitting the "Kill all jobs" 
+button, and restarting the transfer will fix it. In the GUI, there is also a "Scan Notifier" 
+button, which when pressed, will send a message to the "Scan Notifications" channel in the 
+"RDL CT Team" MS Teams page. 
+
 Logs for each file transfer process are stored in the "robocopy_logs" folder, named according 
 to the start time. 
 
