@@ -4,11 +4,7 @@
 A GUI that allows one to copy data during scans with an option for an MS Teams 
 notification when the current scan is done. 
 
-* Everything except the .nsipro files will be copied
-
-* If the source project folder already exists at the destination, do not include the 
-project folder in the destination path; if it is included, then a copy of the 
-project folder will be created within the project folder at the destination. 
+* Everything except the .nsipro files will be copied 
 
 * If the source project folder doesn't exist at the destination, it will be created.
 
