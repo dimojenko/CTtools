@@ -11,6 +11,8 @@ configuration, simply delete any currentDesktop.txt in the run path and rerun.
 Requirements: 
     * Run in Windows shell
     * Files will only be searched for in "D:\"
+    * Only works on the following file types:
+        .nsihdr, .nsivol, .jpg
 
 Author: Dimitri Mojsejenko
 """
